@@ -1,0 +1,25 @@
+/routing_test/app/views/public/items/index.html.erb
+
+<div class="genres-box">
+  <p><b>ジャンル検索</b></p>
+  <div>
+    <p>ケーキ</p>
+    <p>焼き菓子</p>
+    <p>プリン</p>
+    <p>キャンディ</p>
+  </div>
+</div>
+
+<div class="row">
+  <h2>商品一覧</h2>
+  <div class="item">
+    <p>画像</p>
+    <p>商品名</p>
+    <p>￥0,000</p>
+  </div>
+</div>
+
+<%= link_to "TOP", "/" %>
+<%= link_to "ABOUT", "/about" %>
+<%= link_to "商品一覧", "/items" %>
+<%= link_to "商品詳細", "/items/:id" %>

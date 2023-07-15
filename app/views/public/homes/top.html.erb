@@ -1,10 +1,13 @@
 /routing_test/app/views/public/homes/top.html.erb
 
 <div class="genres-box">
-  <p>ジャンル検索</p>
-  <p>ケーキ</p>
-  <p>ケーキ</p>
-  <p>ケーキ</p>
+  <p><b>ジャンル検索</b></p>
+  <div>
+    <p>ケーキ</p>
+    <p>焼き菓子</p>
+    <p>プリン</p>
+    <p>キャンディ</p>
+  </div>
 </div>
 
 <div class="text">
@@ -27,4 +30,6 @@
 
 
 <%= link_to "TOP", "/" %>
-<%= link_to "ABOUT", "/home/about" %>
+<%= link_to "ABOUT", "/about" %>
+<%= link_to "商品一覧", "/items" %>
+<%= link_to "商品詳細", "/items/:id" %>
